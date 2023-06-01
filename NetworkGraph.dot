@@ -1,0 +1,60 @@
+// USA Network Subgraph.
+graph USANetworkGraph {
+    USANetwork1 -- USANetwork2 [distance = 12];
+    USANetwork1 -- USANetwork4 [distance = 7];
+    USANetwork2 -- USANetwork4 [distance = 9];
+    USANetwork2 -- USANetwork3 [distance = 4];
+    USANetwork3 -- USANetwork4 [distance = 15];
+    USANetwork3 -- USANetwork5 [distance = 1];
+    USANetwork4 -- USANetwork5 [distance = 6];
+    USANetwork3 -- USANetwork6 [distance = 5];
+    USANetwork5 -- USANetwork6 [distance = 8];
+}
+// China Network Subgraph.
+graph ChinaNetworkGraph {
+    ChinaNetwork1 -- ChinaNetwork2 [distance = 3];
+    ChinaNetwork1 -- ChinaNetwork4 [distance = 10];
+    ChinaNetwork2 -- ChinaNetwork4 [distance = 5];
+    ChinaNetwork2 -- ChinaNetwork3 [distance = 9];
+    ChinaNetwork3 -- ChinaNetwork4 [distance = 10];
+    ChinaNetwork3 -- ChinaNetwork5 [distance = 12];
+    ChinaNetwork4 -- ChinaNetwork5 [distance = 6];
+    ChinaNetwork3 -- ChinaNetwork6 [distance = 8];
+    ChinaNetwork5 -- ChinaNetwork6 [distance = 2];
+}
+// Russia Network Subgraph.
+graph RussiaNetworkGraph {
+    RussiaNetwork1 -- RussiaNetwork2 [distance = 15];
+    RussiaNetwork1 -- RussiaNetwork4 [distance = 12];
+    RussiaNetwork2 -- RussiaNetwork4 [distance = 6];
+    RussiaNetwork2 -- RussiaNetwork3 [distance = 6];
+    RussiaNetwork3 -- RussiaNetwork4 [distance = 2];
+    RussiaNetwork3 -- RussiaNetwork5 [distance = 1];
+    RussiaNetwork4 -- RussiaNetwork5 [distance = 12];
+    RussiaNetwork3 -- RussiaNetwork6 [distance = 14];
+    RussiaNetwork5 -- RussiaNetwork6 [distance = 6];
+}
+// Brazil Network Subgraph.
+graph BrazilNetworkGraph {
+    BrazilNetwork1 -- BrazilNetwork2 [distance = 7];
+    BrazilNetwork1 -- BrazilNetwork4 [distance = 3];
+    BrazilNetwork2 -- BrazilNetwork4 [distance = 10];
+    BrazilNetwork2 -- BrazilNetwork3 [distance = 1];
+    BrazilNetwork3 -- BrazilNetwork4 [distance = 11];
+    BrazilNetwork3 -- BrazilNetwork5 [distance = 12];
+    BrazilNetwork4 -- BrazilNetwork5 [distance = 3];
+    BrazilNetwork3 -- BrazilNetwork6 [distance = 5];
+    BrazilNetwork5 -- BrazilNetwork6 [distance = 9];
+}
+// India Network Subgraph.
+graph IndiaNetworkGraph {
+    IndiaNetwork1 -- IndiaNetwork2 [distance = 3];
+    IndiaNetwork1 -- IndiaNetwork4 [distance = 2];
+    IndiaNetwork2 -- IndiaNetwork4 [distance = 10];
+    IndiaNetwork2 -- IndiaNetwork3 [distance = 8];
+    IndiaNetwork3 -- IndiaNetwork4 [distance = 6];
+    IndiaNetwork3 -- IndiaNetwork5 [distance = 11];
+    IndiaNetwork4 -- IndiaNetwork5 [distance = 10];
+    IndiaNetwork3 -- IndiaNetwork6 [distance = 7];
+    IndiaNetwork5 -- IndiaNetwork6 [distance = 11];
+}
